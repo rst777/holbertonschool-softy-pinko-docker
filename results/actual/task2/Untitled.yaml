@@ -1,0 +1,24 @@
+Untitled:  # 12/16/2024, 13:50:32:527
+  request:
+    url: https://ply-ct.org/movies
+    method: POST
+    headers: {}
+  response:  # 773 ms
+    status:
+      code: 405
+      message: Method Not Allowed
+    headers:
+      connection: close
+      content-length: '55'
+      content-type: application/json; charset=utf-8
+      date: Mon, 16 Dec 2024 12:50:32 GMT
+      etag: W/"37-l2HfP4r8QHccZCdDejq/kVXTWRM"
+      server: Apache/2.4.41 (Ubuntu)
+      x-powered-by: Express
+    body: |-
+      {
+        "status": {
+          "code": 405,
+          "message": "Updates not allowed"
+        }
+      }
